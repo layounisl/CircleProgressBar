@@ -10,8 +10,6 @@ import UIKit
 
 class CircleProgressBar:UIView{
     
-    
-    
     open var progress : Int = 0 {
         didSet {
             DispatchQueue.main.async {
